@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/12/05 17:32:50.000.122,=C:\Users\Familia\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2016/12/08 00:36:34.000.076,=C:\Users\Familia\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2016/12/08 12:42:24.000.008,=C:\Users\Familia\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2016/12/16 17:26:02.000.827,=C:\Users\Familia\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2016/12/21 19:59:56.000.240,=C:\Users\Familia\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2017/03/08 21:13:32.811,=C:\Users\Familia\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2017/03/08 21:44:42.875,C:\Users\Familia\Desktop\Tutoriais\Tutorial 1\Projeto\Unit5.pas=C:\Users\Familia\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2017/03/08 21:44:42.875,C:\Users\Familia\Desktop\Tutoriais\Tutorial 1\Projeto\Unit5.fmx=C:\Users\Familia\Documents\Embarcadero\Studio\Projects\Unit6.fmx</Transaction>
+    <Transaction>2017/03/08 21:44:49.727,C:\Users\Familia\Desktop\Tutoriais\Tutorial 1\Projeto\Project7.dproj=C:\Users\Familia\Documents\Embarcadero\Studio\Projects\Project7.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="0023252274"/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,193 @@
+object Form9: TForm9
+  Left = 0
+  Top = 0
+  Caption = 'Form9'
+  ClientHeight = 480
+  ClientWidth = 447
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 120.000000000000000000
+    Position.Y = 40.000000000000000000
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 120.000000000000000000
+    Position.Y = 72.000000000000000000
+  end
+  object Button1: TButton
+    Position.X = 120.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object Rectangle1: TRectangle
+    Fill.Color = claWhite
+    Padding.Bottom = 50.000000000000000000
+    Position.X = 48.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 209.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object ShadowEffect2: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+    object Circle2: TCircle
+      Fill.Color = xFF3FE144
+      Position.X = 36.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 102.000000000000000000
+      Size.Height = 100.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Pie1: TPie
+        Align = Client
+        Fill.Color = xFF10881D
+        RotationAngle = -90.000000000000000000
+        Size.Width = 102.000000000000000000
+        Size.Height = 100.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        StartAngle = 250.000000000000000000
+        EndAngle = -90.000000000000000000
+        object Circle1: TCircle
+          Align = Center
+          Fill.Color = claWhite
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Label1: TLabel
+            Align = Center
+            StyledSettings = [Family, Style, FontColor]
+            RotationAngle = 90.000000000000000000
+            Size.Width = 36.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 18.000000000000000000
+            TextSettings.HorzAlign = Center
+            Text = '25%'
+          end
+        end
+        object FloatAnimation1: TFloatAnimation
+          Duration = 0.200000002980232200
+          PropertyName = 'StartAngle'
+          StartValue = 0.000000000000000000
+          StopValue = 0.000000000000000000
+        end
+      end
+      object ShadowEffect1: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+    end
+    object Label3: TLabel
+      Align = Bottom
+      StyledSettings = [Family, Style, FontColor]
+      Position.Y = 142.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'Contas '#224' Receber'
+    end
+  end
+  object Rectangle2: TRectangle
+    Fill.Color = claWhite
+    Padding.Bottom = 50.000000000000000000
+    Position.X = 248.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 209.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object ShadowEffect3: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+    object Circle3: TCircle
+      Fill.Color = xFFFE5959
+      Position.X = 36.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 102.000000000000000000
+      Size.Height = 100.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Pie2: TPie
+        Align = Client
+        Fill.Color = claRed
+        RotationAngle = -90.000000000000000000
+        Size.Width = 102.000000000000000000
+        Size.Height = 100.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        StartAngle = 150.000000000000000000
+        EndAngle = -90.000000000000000000
+        object Circle4: TCircle
+          Align = Center
+          Fill.Color = claWhite
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Label2: TLabel
+            Align = Center
+            StyledSettings = [Family, Style, FontColor]
+            RotationAngle = 90.000000000000000000
+            Size.Width = 36.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 18.000000000000000000
+            TextSettings.HorzAlign = Center
+            Text = '25%'
+          end
+        end
+        object FloatAnimation2: TFloatAnimation
+          Duration = 0.200000002980232200
+          PropertyName = 'StartAngle'
+          StartValue = 0.000000000000000000
+          StopValue = 0.000000000000000000
+        end
+      end
+      object ShadowEffect4: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+    end
+    object Label4: TLabel
+      Align = Bottom
+      StyledSettings = [Family, Style, FontColor]
+      Position.Y = 142.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'Contas '#224' Pagar'
+    end
+  end
+end

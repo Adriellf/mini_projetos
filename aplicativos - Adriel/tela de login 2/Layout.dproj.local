@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/05/15 00:43:19.000.907,=D:\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/05/15 02:43:39.000.878,D:\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\Jefersson Jeiel\Desktop\Nova pasta\uLayout.fmx</Transaction>
+    <Transaction>2018/05/15 02:43:39.000.878,D:\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Jefersson Jeiel\Desktop\Nova pasta\uLayout.pas</Transaction>
+    <Transaction>2018/05/15 02:43:43.000.163,D:\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Jefersson Jeiel\Desktop\Nova pasta\Layout.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="AVD_for_Nexus_7_2012_by_Google"/>  <PiPhone iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>

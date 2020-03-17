@@ -1,0 +1,93 @@
+object Form9: TForm9
+  Left = 0
+  Top = 0
+  Caption = 'Form9'
+  ClientHeight = 558
+  ClientWidth = 321
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  FullScreen = True
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 321.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    TintColor = xFF1565C0
+    object ShadowEffect1: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 90.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+  end
+  object Rectangle1: TRectangle
+    Align = Center
+    Fill.Color = claWhite
+    Size.Width = 257.000000000000000000
+    Size.Height = 329.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 5.000000000000000000
+    YRadius = 5.000000000000000000
+    object ShadowEffect3: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 90.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+    object Rectangle2: TRectangle
+      Align = Top
+      Fill.Color = xFF5E92F3
+      Size.Width = 257.000000000000000000
+      Size.Height = 217.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object ShadowEffect4: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 90.000000000000000000
+        Softness = 0.109999999403953600
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+      object Label1: TLabel
+        Align = Left
+        Anchors = [akLeft, akTop]
+        StyledSettings = [Family, Size, Style]
+        Size.Width = 105.000000000000000000
+        Size.Height = 217.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = claWhite
+        Text = ' Endere'#231'o:'
+      end
+      object EdtEndereco: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Left
+        TabOrder = 1
+        Position.X = 105.000000000000000000
+        Position.Y = 92.000000000000000000
+        Size.Width = 144.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Button1: TButton
+      Align = Bottom
+      IconTintColor = xFF5E92F3
+      Position.X = 104.000000000000000000
+      Position.Y = 281.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'donetoolbutton'
+      TabOrder = 1
+      Text = 'Button1'
+      TintColor = xFF5E92F3
+      OnClick = Button1Click
+    end
+  end
+end

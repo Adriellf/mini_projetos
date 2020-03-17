@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/03/12 02:48:22.000.662,C:\Users\Tran\Desktop\DataPak Android Components\BarcodeScanner\Example\UnitMainForm.fmx=C:\Users\Tran\Desktop\TKRBarCodeSanner\Example\UnitMainForm.fmx</Transaction>
+    <Transaction>2015/03/12 02:48:22.000.662,C:\Users\Tran\Desktop\DataPak Android Components\BarcodeScanner\Example\UnitMainForm.pas=C:\Users\Tran\Desktop\TKRBarCodeSanner\Example\UnitMainForm.pas</Transaction>
+    <Transaction>2015/03/12 02:48:49.000.500,C:\Users\Tran\Desktop\DataPak Android Components\BarcodeScanner\Example\BarcodeSannerExample.dproj=C:\Users\Tran\Desktop\TKRBarCodeSanner\Example\TKRBarCodeSannerExample.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="IntX86"/>
+	</ActiveMobileDevice>
+</BorlandProject>

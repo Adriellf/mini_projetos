@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/04/16 11:27:17.000.697,=C:\Users\Analise05\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>2019/04/16 11:29:39.000.275,C:\Users\Analise05\Documents\Embarcadero\Studio\Projects\webBrowser.dproj=C:\Users\Analise05\Documents\Embarcadero\Studio\Projects\Project6.dproj</Transaction>
+    <Transaction>2019/04/16 11:29:54.000.123,C:\Users\Analise05\Documents\Embarcadero\Studio\Projects\uPrincipal.pas=C:\Users\Analise05\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>2019/04/16 11:29:54.000.123,C:\Users\Analise05\Documents\Embarcadero\Studio\Projects\uPrincipal.fmx=C:\Users\Analise05\Documents\Embarcadero\Studio\Projects\Unit9.fmx</Transaction>
+    <Transaction>2019/04/16 11:30:29.000.335,C:\aplicativos - Adriel\teste webBrowser\uPrincipal.pas=C:\Users\Analise05\Documents\Embarcadero\Studio\Projects\uPrincipal.pas</Transaction>
+    <Transaction>2019/04/16 11:30:29.000.335,C:\aplicativos - Adriel\teste webBrowser\uPrincipal.fmx=C:\Users\Analise05\Documents\Embarcadero\Studio\Projects\uPrincipal.fmx</Transaction>
+    <Transaction>2019/04/16 11:30:32.000.709,C:\aplicativos - Adriel\teste webBrowser\webBrowser.dproj=C:\Users\Analise05\Documents\Embarcadero\Studio\Projects\webBrowser.dproj</Transaction>
+    <Transaction>2019/04/16 12:09:24.000.613,C:\aplicativos - Adriel\teste webBrowser\ConsultaProcessual.dproj=C:\aplicativos - Adriel\teste webBrowser\webBrowser.dproj</Transaction>
+    <Transaction>2019/07/04 20:10:28.000.707,D:\Projetos\teste webBrowser\ConsultaProcessual.dproj=D:\Projetos\teste webBrowser\Propizza.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PiPhone iOSSimulator="iPhone5"/>
+		<NoProfile Android="4e2bd8b2" iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/09/14 14:41:21.000.849,=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/22 20:03:32.000.968,=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/01/24 11:06:09.000.709,=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/07/05 12:05:52.000.088,=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/08/10 21:14:59.000.618,=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/29 09:42:00.000.989,=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/03/07 20:07:53.000.080,=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/03/07 20:08:19.000.798,C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\Jonatan\Desktop\CodigoBarras\Unit1.fmx</Transaction>
+    <Transaction>2016/03/07 20:08:19.000.798,C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Jonatan\Desktop\CodigoBarras\Unit1.pas</Transaction>
+    <Transaction>2016/03/07 20:08:26.000.043,C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Jonatan\Desktop\CodigoBarras\PrjCodeBarras.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="Android4.0"/>
+		<PIOS iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

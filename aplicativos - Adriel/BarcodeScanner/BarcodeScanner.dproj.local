@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/03/11 03:02:37.000.426,=rtl.dcp</Transaction>
+    <Transaction>2015/03/11 03:02:51.000.940,=C:\Users\Tran\Desktop\DataPak Android Components\BarcodeScanner\DataPak.Android.BarcodeScanner.pas</Transaction>
+    <Transaction>2015/03/11 03:04:13.000.765,C:\Users\Tran\Documents\Embarcadero\Studio\Projects\Package1.dproj=C:\Users\Tran\Desktop\DataPak Android Components\BarcodeScanner\BarcodeScannerPakage.dproj</Transaction>
+    <Transaction>2015/03/11 03:05:02.000.360,C:\Users\Tran\Desktop\DataPak Android Components\BarcodeScanner\BarcodeScannerPakage.dproj=C:\Users\Tran\Desktop\DataPak Android Components\BarcodeScanner\BarcodeScannerPackage.dproj</Transaction>
+    <Transaction>2015/03/11 03:16:43.000.909,C:\Users\Tran\Desktop\DataPak Android Components\BarcodeScanner\BarcodeScannerPackage.dproj=C:\Users\Tran\Desktop\DataPak Android Components\BarcodeScanner\BarcodeScanner.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

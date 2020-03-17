@@ -1,0 +1,95 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Chat Cliente'
+  ClientHeight = 538
+  ClientWidth = 348
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object Barra: TRectangle
+    Align = Top
+    Fill.Color = claBlack
+    Size.Width = 348.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    object spbMenu: TSpeedButton
+      Align = Left
+      IconTintColor = claYellow
+      Position.Y = 1.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'drawertoolbutton'
+      Text = 'spbMenu'
+    end
+    object spbShare: TSpeedButton
+      Align = Right
+      IconTintColor = claYellow
+      Position.X = 300.000000000000000000
+      Position.Y = 1.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'actiontoolbutton'
+      Text = 'spbShare'
+    end
+    object Titulo: TLabel
+      Align = Client
+      StyledSettings = [Family, Size, Style]
+      Size.Width = 252.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claYellow
+      TextSettings.HorzAlign = Center
+      Text = 'Chat Voice/Audio'
+    end
+  end
+  object Rectangle: TRectangle
+    Align = Center
+    Fill.Color = claBlue
+    Size.Width = 100.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 20.000000000000000000
+    YRadius = 20.000000000000000000
+    OnClick = RectangleClick
+    object Shadow: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+    object Animation: TFloatAnimation
+      Duration = 6.000000000000000000
+      OnFinish = AnimationFinish
+      PropertyName = 'RotationAngle'
+      StartValue = 0.000000000000000000
+      StopValue = 360.000000000000000000
+    end
+  end
+  object Messagem: TText
+    Align = Top
+    Position.Y = 50.000000000000000000
+    Size.Width = 348.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Aperte o bot'#227'o para falar...'
+    TextSettings.Font.Size = 16.000000000000000000
+  end
+  object MediaPlayer: TMediaPlayer
+    Left = 24
+    Top = 112
+  end
+  object IdUDPClient: TIdUDPClient
+    Host = '192.168.100.4'
+    Port = 5556
+    Left = 272
+    Top = 112
+  end
+end

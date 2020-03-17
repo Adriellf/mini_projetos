@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/10/27 13:34:55.748,=D:\Projetos\gerados embarcadero\Unit1.pas</Transaction>
+    <Transaction>2019/10/27 13:37:36.638,=D:\Projetos\gerados embarcadero\Unit2.pas</Transaction>
+    <Transaction>2019/10/27 13:38:16.545,D:\Projetos\estudo\Unit2.pas=D:\Projetos\gerados embarcadero\Unit2.pas</Transaction>
+    <Transaction>2019/10/27 13:38:18.756,D:\Projetos\estudo\Unit1.dfm=D:\Projetos\gerados embarcadero\Unit1.dfm</Transaction>
+    <Transaction>2019/10/27 13:38:18.756,D:\Projetos\estudo\Unit1.pas=D:\Projetos\gerados embarcadero\Unit1.pas</Transaction>
+    <Transaction>2019/10/27 13:38:32.790,D:\Projetos\estudo\Project_Tulio.dproj=D:\Projetos\gerados embarcadero\Project1.dproj</Transaction>
+    <Transaction>2019/10/27 13:48:19.538,D:\Projetos\estudo\Classe.Pessoa.dfm=D:\Projetos\estudo\Unit1.dfm</Transaction>
+    <Transaction>2019/10/27 13:48:19.538,D:\Projetos\estudo\Classe.Pessoa.pas=D:\Projetos\estudo\Unit1.pas</Transaction>
+    <Transaction>2019/10/27 13:49:03.201,D:\Projetos\estudo\View.Principal.pas=D:\Projetos\estudo\Classe.Pessoa.pas</Transaction>
+    <Transaction>2019/10/27 13:49:03.201,D:\Projetos\estudo\View.Principal.dfm=D:\Projetos\estudo\Classe.Pessoa.dfm</Transaction>
+    <Transaction>2019/10/27 13:49:33.135,D:\Projetos\estudo\Classe.Pessoa.pas=D:\Projetos\estudo\Unit2.pas</Transaction>
+    <Transaction>2019/10/27 14:13:10.871,=D:\Projetos\estudo\Unit1.pas</Transaction>
+    <Transaction>2019/10/27 14:13:25.264,D:\Projetos\estudo\Classe.pas=D:\Projetos\estudo\Unit1.pas</Transaction>
+    <Transaction>2019/10/27 14:15:28.268,D:\Projetos\estudo\Classe.sql.sql=D:\Projetos\estudo\Classe.sql</Transaction>
+    <Transaction>2019/10/27 14:15:56.993,D:\Projetos\estudo\Classe.sql.pas=</Transaction>
+    <Transaction>2019/10/27 14:16:21.247,=D:\Projetos\estudo\Unit1.pas</Transaction>
+    <Transaction>2019/10/27 14:16:31.253,D:\Projetos\estudo\Classe.sql.pas=D:\Projetos\estudo\Unit1.pas</Transaction>
+    <Transaction>2019/10/27 14:24:07.477,=D:\Projetos\estudo\Unit1.pas</Transaction>
+    <Transaction>2019/10/27 14:24:27.688,D:\Projetos\estudo\Classe.Cliente.pas=D:\Projetos\estudo\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

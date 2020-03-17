@@ -1,0 +1,167 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.OleCtrls, SHDocVw, Vcl.StdCtrls, ActiveX, MSHTML,
+  Vcl.ExtCtrls;
+
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    Button2: TButton;
+    WebBrowser1: TWebBrowser;
+    Timer1: TTimer;
+    Timer2: TTimer;
+    Edit1: TEdit;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+  //  function GetInnersByClass(const Doc: IDispatch; const classname: string;var Lst:TStringList): Integer;
+    procedure varrer(const Doc: IDispatch);
+    procedure clicar;
+    procedure Timer1Timer(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure Timer2Timer(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+  contagem: integer;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  WebBrowser1.Navigate(Edit1.Text);
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+
+begin
+ if not Timer2.Enabled then
+ begin
+ Timer2.Enabled :=true;  Button2.Caption:='ON';
+ end
+ else
+ begin
+      Timer2.Enabled :=false;
+      timer1.Enabled:=false;
+      Button2.Caption:='OFF';
+ end;
+
+ //webbrowser1.OleObject.Document.getElementsByClassName('Ypffh').innertext:= 'teste';
+
+
+end;
+
+
+
+procedure TForm1.clicar;
+var
+  Buttons: OleVariant;
+  Button: OleVariant;
+  I: Integer;
+begin
+   Buttons := WebBrowser1.OleObject.Document.getElementsByTagName('button');
+  for I := 0 to Buttons.Length - 1 do
+  begin
+    Button := Buttons.item(I);
+    if Button.innerText = 'Publicar' then
+    begin
+      sleep(300);
+      Button.click();
+    end;
+  end;
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  contagem:=0;
+end;
+
+procedure TForm1.Timer1Timer(Sender: TObject);
+begin
+  if contagem >=3 then
+  begin
+    contagem:=0;
+    Timer1.Enabled:=false;
+  end else
+  begin
+   varrer(webbrowser1.Document);
+  end;
+
+end;
+
+procedure TForm1.Timer2Timer(Sender: TObject);
+begin
+if timer1.Enabled then timer1.Enabled:=false
+else
+timer1.Enabled:=true;
+end;
+
+{function TForm1.GetInnersByClass(const Doc: IDispatch; const classname: string;
+  var Lst: TStringList): Integer;
+  var
+  Document: IHTMLDocument2;     // IHTMLDocument2 interface of Doc
+  Body: IHTMLElement2;          // document body element
+  Tags: IHTMLElementCollection; // all tags in document body
+  Tag: IHTMLElement;            // a tag in document body
+  I:integer;
+  el: IHTMLTextAreaElement;
+begin
+
+  Result := 0 ;
+ // Tags := Body.getElementsByTagName('textarea');
+  //Tag := Tags.item(I,EmptyParam) as IHTMLElement;
+
+ Tags :=(WebBrowser1.Document as IHTMLDocument3).getElementsByTagName('textarea');
+
+  if Tags.length <> 0 then
+    begin
+     el:=Tags.item(0, 0) as IHTMLTextAreaElement;
+     el.value:='teste 1'+ IntToStr(i) ;
+    end;
+
+
+end;     }
+
+
+
+procedure TForm1.varrer(const Doc: IDispatch);
+var
+  Tags, tags2: IHTMLElementCollection;
+  I:integer;
+  el: IHTMLTextAreaElement;
+  el2: IHTMLButtonElement;
+const
+users : array[1..5] of string = ('@iramar_oliveira','@kelmer_passos','@vanessa_rosado2019','@jorgelu09','@_thaliamatoss');
+begin
+    contagem:= contagem + 1;
+    Tags :=(WebBrowser1.Document as IHTMLDocument3).getElementsByTagName('textarea');
+
+
+    if Tags.length <> 0 then
+      begin
+       el:=Tags.item(0, 0) as IHTMLTextAreaElement;
+       el.createTextRange.select;
+       el.createTextRange.select;
+       Randomize;
+       el.createTextRange.text:=users[random(5)];
+       Application.ProcessMessages;
+       clicar;
+      end;
+       //WebBrowser1.OleObject.document.getElementsByTagName('textarea').focus;
+     //   el.value:='teste - '+ IntToStr(i) ;
+       //WebBrowser1.OleObject.Document.GetElementById('submit').InvokeMember('click');
+
+
+end;
+
+end.

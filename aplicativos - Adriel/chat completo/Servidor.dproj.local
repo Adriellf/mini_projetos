@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/04/10 12:04:25.000.452,=C:\Users\RAVEN\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/13 10:52:50.000.012,=C:\Users\RAVEN\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/13 10:56:28.000.893,=C:\Users\RAVEN\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/20 23:08:12.000.053,=C:\Users\RAVEN\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/24 10:57:54.000.563,=C:\Users\RAVEN\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/24 11:02:46.000.565,=C:\Users\RAVEN\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/05/10 13:45:17.000.757,=C:\Users\RAVEN\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/05/17 13:49:51.000.457,=C:\Users\RAVEN\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/05/19 20:47:55.000.627,=C:\Users\RAVEN\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/05/20 11:41:55.000.208,=C:\Users\RAVEN\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/15 13:44:46.000.793,=C:\Users\RAVEN\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/24 06:17:37.000.447,=C:\Users\RAVEN\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/24 06:21:42.000.432,C:\Users\RAVEN\Desktop\Chat_VA\uServer.pas=C:\Users\RAVEN\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/24 06:21:42.000.432,C:\Users\RAVEN\Desktop\Chat_VA\uServer.fmx=C:\Users\RAVEN\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2017/06/24 06:21:48.000.845,C:\Users\RAVEN\Desktop\Chat_VA\Servidor.dproj=C:\Users\RAVEN\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="9515c0e0"/>
+	</ActiveMobileDevice>
+</BorlandProject>

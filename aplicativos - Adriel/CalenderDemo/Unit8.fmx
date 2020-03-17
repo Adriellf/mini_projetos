@@ -1,0 +1,112 @@
+object Form8: TForm8
+  Left = 0
+  Top = 0
+  Caption = 'Form8'
+  ClientHeight = 508
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnClose = FormClose
+  DesignerMobile = True
+  DesignerWidth = 320
+  DesignerHeight = 533
+  DesignerDeviceName = 'Samsung Galaxy S2'
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object CalendarEdit1: TCalendarEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Cursor = crIBeam
+    Date = 41771.000000000000000000
+    Height = 32.000000000000000000
+    Position.X = 72.000000000000000000
+    Position.Y = 88.000000000000000000
+    Width = 217.000000000000000000
+  end
+  object Button4: TButton
+    Height = 44.000000000000000000
+    Position.X = 24.000000000000000000
+    Position.Y = 384.000000000000000000
+    TabOrder = 1
+    Text = 'delete'
+    Width = 105.000000000000000000
+    OnClick = Button4Click
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    KeyboardType = NumberPad
+    Position.X = 24.000000000000000000
+    Position.Y = 352.000000000000000000
+    Width = 97.000000000000000000
+    Height = 32.000000000000000000
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 16.000000000000000000
+    Position.Y = 160.000000000000000000
+    Width = 273.000000000000000000
+    Height = 32.000000000000000000
+  end
+  object Button5: TButton
+    Height = 44.000000000000000000
+    Position.X = 176.000000000000000000
+    Position.Y = 208.000000000000000000
+    TabOrder = 4
+    Text = 'Add'
+    Width = 105.000000000000000000
+    OnClick = Button5Click
+  end
+  object ListBox1: TListBox
+    Height = 209.000000000000000000
+    Position.X = 152.000000000000000000
+    Position.Y = 264.000000000000000000
+    TabOrder = 5
+    Width = 145.000000000000000000
+    DefaultItemStyles.ItemStyle = 'listboxitemnodetail'
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+  end
+  object Button6: TButton
+    Height = 44.000000000000000000
+    Position.X = 32.000000000000000000
+    Position.Y = 208.000000000000000000
+    TabOrder = 6
+    Text = 'Update'
+    Width = 105.000000000000000000
+    OnClick = Button6Click
+  end
+  object Button1: TButton
+    Height = 33.000000000000000000
+    Position.X = 32.000000000000000000
+    Position.Y = 32.000000000000000000
+    TabOrder = 7
+    Text = 'Show available calendars'
+    Width = 265.000000000000000000
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    Height = 23.000000000000000000
+    Position.X = 8.000000000000000000
+    Position.Y = 328.000000000000000000
+    Text = 'reminder ID'
+    Width = 129.000000000000000000
+  end
+  object Label2: TLabel
+    Height = 23.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 96.000000000000000000
+    Text = 'Date'
+    Width = 49.000000000000000000
+  end
+  object Label3: TLabel
+    Height = 23.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 136.000000000000000000
+    Text = 'Title'
+    Width = 49.000000000000000000
+  end
+end

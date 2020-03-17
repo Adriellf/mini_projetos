@@ -1,0 +1,97 @@
+object Form6: TForm6
+  Left = 0
+  Top = 0
+  Caption = 'Form6'
+  ClientHeight = 480
+  ClientWidth = 323
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object lyt1: TLayout
+    Align = Client
+    Size.Width = 323.000000000000000000
+    Size.Height = 430.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object rctMenu: TRectangle
+      Align = Top
+      Fill.Color = claWhite
+      Size.Width = 323.000000000000000000
+      Size.Height = 165.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object ShadowEffect1: TShadowEffect
+        Distance = 2.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.300000011920929000
+        ShadowColor = claBlack
+      end
+      object lst1: TListBox
+        Align = Client
+        Size.Width = 323.000000000000000000
+        Size.Height = 165.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        OnItemClick = lst1ItemClick
+        Viewport.Width = 323.000000000000000000
+        Viewport.Height = 165.000000000000000000
+        object ListBoxGroupHeader1: TListBoxGroupHeader
+          Size.Width = 323.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'ListBoxGroupHeader1'
+        end
+        object ListBoxItem1: TListBoxItem
+          Position.Y = 30.000000000000000000
+          TabOrder = 1
+          Text = 'ListBoxItem1'
+        end
+        object ListBoxItem2: TListBoxItem
+          Position.Y = 74.000000000000000000
+          TabOrder = 2
+          Text = 'ListBoxItem2'
+        end
+        object ListBoxItem3: TListBoxItem
+          Position.Y = 118.000000000000000000
+          TabOrder = 3
+          Text = 'ListBoxItem3'
+        end
+      end
+    end
+  end
+  object Rectangle1: TRectangle
+    Align = Top
+    Fill.Color = claDodgerblue
+    Size.Width = 323.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object btnMenu: TButton
+      Align = Left
+      IconTintColor = claWhite
+      Position.Y = 1.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'drawertoolbutton'
+      TabOrder = 0
+      Text = 'btnMenu'
+      OnClick = btnMenuClick
+    end
+    object ShadowEffect2: TShadowEffect
+      Distance = 2.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.300000011920929000
+      ShadowColor = claBlack
+    end
+  end
+end
